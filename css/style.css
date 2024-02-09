@@ -1,3 +1,29 @@
-body{
-    background-color: red;
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1000px;
+    height: 100px;
+    background-color: cornflowerblue;
+    position: relative;
+}
+
+header > .orange:first-child{
+    background-color: darkgoldenrod;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+header > .orange:last-child{
+    background-color: darkgoldenrod;
+    width: 500px;
+    height: 25px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
 }
